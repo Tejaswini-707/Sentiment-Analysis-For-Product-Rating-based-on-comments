@@ -1,0 +1,137 @@
+<html>
+<style>
+.card {
+  background: #27293d;
+  border: 0;
+  border-radius:10px;
+  position: relative;
+  width: 75%;
+  height:400px;
+  margin-bottom: 30px;
+}
+.card {
+  font-size: .875rem;
+}
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .container {
+  width: 75%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius:10px;
+}
+
+  .container {
+    max-width: 540px;
+  }
+
+  .container {
+    max-width: 400px;
+  }
+
+.container-fluid {
+  width: 65%;
+  lenght:500px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius:10px;
+}
+
+.col{
+  display: flex;
+  padding:30px;
+}
+
+body {
+	background-image: url('back.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+</style>
+<div class="content" style="padding:30px">
+        <div class="container-fluid" style="padding:30px;border-radius:10px;">
+              <div class="card" style="border-radius:10px;">
+                <div style="background-color:purple;style="border-radius:10px;"">
+                  <h3 style="color:white ; padding:10px">Add Users</h3>
+                  <p style="color:white">Complete User profile</p>
+                </div>
+                <div>
+                  <form action="" method="post" name="form" enctype="multipart/form-data">
+                    <div>
+                      
+                      <div>
+                        <div>
+                          <label style="color:white ; padding:30px;">First Name</label>
+                          <input type="text" id="first_name" name="first_name"  style="border-radius:5px" required>
+                        </div>
+                      </div>
+					  <br>
+                      <div>
+                        <div>
+                          <label style="color:white;padding:31px">Last Name</label>
+                          <input type="text" name="last_name" id="last_name" style="border-radius:5px" required>
+                        </div>
+                      </div>
+                    </div>
+					<br>
+                    <div>
+                      <div>
+                        <div>
+                          <label style="color:white;padding:45px">Email</label>
+                          <input type="email" name="email" id="email" style="border-radius:5px" required>
+                        </div>
+                      </div>
+					  <br>
+					  
+                      <div>
+                        <div>
+                          <label style="color:white;padding:35px">Password</label>
+                          <input type="password" id="password" name="password" style="border-radius:5px" required>
+                        </div>
+                      </div>
+                    </div>
+					<br>
+                    <div>
+                      <div>
+                        <div>
+                          <label style="color:white;padding:22px">phone number</label>
+                          <input type="text" id="phone" name="phone" style="border-radius:5px" required>
+                        </div>
+                      </div>
+                    </div>
+					<br>
+                    <div>
+                      <div>
+                        <div>
+                          <label style="color:white;padding:50px">City</label>
+                          <input type="text" name="city" id="city" style="border-radius:5px"  required>
+                        </div>
+                      </div>
+					  <br>
+                      <div>
+                        <div>
+                          <label style="color:white; padding:40px">Address</label>
+                          <input type="text" name="country" id="country" style="border-radius:5px" required>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <br>
+                    <button type="submit" name="btn_save" id="btn_save"  style="position:relative; left:150px;padding:10px;background-color:purple;color:white;border-radius:10px" >Update User</button>
+                    <div></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+</html>
